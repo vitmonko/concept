@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 432" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" role="img" aria-label="Every PR gets evidence and a merge decision">
+  <rect width="760" height="432" fill="#ffffff"/>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#9a9a90"/></marker>
+  </defs>
+  <text x="24" y="34" font-size="15" font-weight="600" fill="#1f1f1f">Every PR gets evidence and a merge decision</text>
+  <rect x="196" y="64" width="320" height="264" rx="8" fill="#f1f1ee" stroke="#9a9a90" stroke-width="1.25"/>
+  <text x="212" y="88" font-size="15" font-weight="600" fill="#1f1f1f">Merge-confidence layer</text>
+  <g fill="none" stroke="#9a9a90" stroke-width="1.25">
+    <path d="M176 132H196" marker-end="url(#a)"/>
+    <path d="M356 160V180" marker-end="url(#a)"/>
+    <path d="M356 236V256" marker-end="url(#a)"/>
+    <path d="M516 208H534V156H552" marker-end="url(#a)"/>
+    <path d="M534 208V256H552" marker-end="url(#a)"/>
+    <path d="M644 284V380H500" marker-end="url(#a)"/>
+    <path d="M356 352V328" marker-end="url(#a)"/>
+  </g>
+  <g text-anchor="middle">
+    <rect x="24" y="108" width="152" height="48" rx="8" fill="#ffffff" stroke="#9a9a90" stroke-width="1.25"/>
+    <text x="100" y="136" font-weight="600" fill="#1f1f1f">PR from any agent</text>
+
+    <rect x="212" y="104" width="288" height="56" rx="8" fill="#ffffff" stroke="#9a9a90" stroke-width="1.25"/>
+    <text x="356" y="128" font-weight="600" fill="#1f1f1f">Behavioral evidence</text>
+    <text x="356" y="144" font-size="11.5" fill="#5f5f5a">Runs base vs head: tests, contracts, UI</text>
+
+    <rect x="212" y="180" width="288" height="56" rx="8" fill="#dbe7f6" stroke="#2f74d0" stroke-width="2"/>
+    <text x="356" y="204" font-weight="600" fill="#1f1f1f">Risk score 1 to 5</text>
+    <text x="356" y="220" font-size="11.5" fill="#5f5f5a">Blast radius, risky paths, ticket intent</text>
+
+    <rect x="212" y="256" width="288" height="56" rx="8" fill="#ffffff" stroke="#9a9a90" stroke-width="1.25"/>
+    <text x="356" y="280" font-weight="600" fill="#1f1f1f">Briefing</text>
+    <text x="356" y="296" font-size="11.5" fill="#5f5f5a">Top three reasons, what to check first</text>
+
+    <rect x="552" y="128" width="184" height="56" rx="8" fill="#e1f2e1" stroke="#2e9a3a" stroke-width="2"/>
+    <text x="644" y="152" font-weight="600" fill="#1f1f1f">Low risk: auto-merge</text>
+    <text x="644" y="168" font-size="11.5" fill="#5f5f5a">Evidence kept for audit</text>
+
+    <rect x="552" y="228" width="184" height="56" rx="8" fill="#ffffff" stroke="#9a9a90" stroke-width="1.25"/>
+    <text x="644" y="252" font-weight="600" fill="#1f1f1f">Risky: human review</text>
+    <text x="644" y="268" font-size="11.5" fill="#5f5f5a">Briefing goes to reviewer</text>
+
+    <rect x="212" y="352" width="288" height="56" rx="8" fill="#ffffff" stroke="#9a9a90" stroke-width="1.25"/>
+    <text x="356" y="376" font-weight="600" fill="#1f1f1f">Incidents and rollbacks</text>
+    <text x="356" y="392" font-size="11.5" fill="#5f5f5a">Recalibrate the risk score over time</text>
+  </g>
+  <text x="636" y="336" text-anchor="end" font-size="11.5" fill="#5f5f5a">production outcomes</text>
+  <text x="364" y="344" font-size="11.5" fill="#5f5f5a">calibrates</text>
+</svg>
