@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 432" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" role="img" aria-label="Every PR gets evidence and a merge decision">
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="432" viewBox="0 0 760 432" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" role="img" aria-label="Every PR gets evidence and a merge decision">
   <rect width="760" height="432" fill="#ffffff"/>
   <defs>
     <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#9a9a90"/></marker>
